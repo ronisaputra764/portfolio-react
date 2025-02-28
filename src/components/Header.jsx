@@ -22,7 +22,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="flex justify-center items-center translate-x-14 animate__animated animate__slideInRight">
-                <img className="rounded-full w-4/6" src="./public/assets/img/IMG_3552.jpg" alt="" />
+                <img className="rounded-full w-4/6" src="./assets/img/IMG_3552.jpg" alt="" />
             </div>
         </div>
     )

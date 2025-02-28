@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-color: #1f1f21;
+    --text-color: #fff;
+    --main-color: #ffae00;
+    --hover-color: #e1ab37;
+}
+
+body {
+    font-family: "Rubik", serif;
+    background-color: var(--bg-color);
+}

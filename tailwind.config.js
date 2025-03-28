@@ -6,6 +6,15 @@ export default {
       fontFamily: {
         roboto: ['Rubik', 'sans-serif'],
       },
+      animation: {
+        scroll: 'scroll 30s linear infinite',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
       colors: {
         bgColor: "var(--bg-color)",
         textColor: "var(--text-color)",

@@ -1,6 +1,7 @@
-import Navbar from "./components/Navbar"
-import Header from "./components/Header"
-import ProjectCard from "./components/ProjectCard"
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import ProjectCard from "./components/ProjectCard";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <Navbar />
       <Header />
       <ProjectCard />
+      <TechStack />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

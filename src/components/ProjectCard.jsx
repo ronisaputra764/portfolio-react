@@ -1,23 +1,12 @@
-import { useState, useEffect } from "react";
-import { collection, getDocs } from "firebase/firestore";
-import db from "../firebase/config";
+import { useEffect, useState } from "react";
+import { recentProject } from "../data";
 
 export default function ProjectCard() {
 
     const [projects, setProjects] = useState([]);
 
-
     useEffect(() => {
-        const fetchData = async () => {
-            const querySnapshot = await getDocs(collection(db, "portfolio"));
-            const projectData = querySnapshot.docs.map(doc => ({
-                id: doc.id,
-                ...doc.data(),
-            }));
-            setProjects(projectData);
-        };
-
-        fetchData();
+        setProjects(recentProject);
     }, []);
 
     return (
@@ -28,12 +17,12 @@ export default function ProjectCard() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-20">
 
-                    {projects.map((item) => (
-                        <div key={item.id} className="bg-black p-5 pb-10 rounded-3xl shadow-2xl hover:shadow-mainColor hover:-translate-y-5 transition-all duration-700">
+                    {projects.map((item, index) => (
+                        <div key={index} className="bg-black p-5 pb-10 rounded-3xl shadow-2xl hover:shadow-mainColor hover:-translate-y-5 transition-all duration-700">
                             <div>
                                 <img
                                     className="rounded-xl"
-                                    src={item.image}
+                                    src={`assets/img/${item.image}`}
                                     alt={item.title}
                                 />
                             </div>
@@ -45,7 +34,7 @@ export default function ProjectCard() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="border-[2px] text-xs 2xl:text-lg border-mainColor bg-mainColor text-black px-4 py-3 whitespace-nowrap rounded-lg font-semibold
-                                                  transition-all duration-700 hover:-translate-y-2">
+                                                  transition-all duration-500 hover:-translate-y-2">
                                         Demo
                                     </a>
                                     <a
@@ -53,7 +42,7 @@ export default function ProjectCard() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="border-[2px] text-xs 2xl:text-lg  border-mainColor bg-transparent px-4 py-3 whitespace-nowrap rounded-lg font-semibold
-                                                    transition-all duration-700 hover:-translate-y-2 hover:bg-mainColor hover:text-bgColor">
+                                                    transition-all duration-500 hover:-translate-y-2 hover:bg-mainColor hover:text-bgColor">
                                         Git Hub
                                     </a>
                                 </div>

@@ -18,6 +18,12 @@ export const recentProject = [
         vercel: "https://vue-blog-cyan-beta.vercel.app/"
     },
     {
+        title: "Moonton",
+        image: "moonton.png",
+        github: "https://github.com/ronisaputra764/mononton",
+        vercel: "https://moonton-eight.vercel.app/"
+    },
+    {
         title: "KitaBantu",
         image: "kitabantu.png",
         github: "https://github.com/ronisaputra764/kitabantu",

@@ -19,13 +19,17 @@ export default function ProjectCard() {
 
                     {projects.map((item, index) => (
                         <div key={index} className="bg-black p-5 pb-10 rounded-3xl shadow-2xl hover:shadow-mainColor hover:-translate-y-5 transition-all duration-700">
-                            <div>
+                            <a
+                                href={item.vercel}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <img
                                     className="rounded-xl"
                                     src={`assets/img/${item.image}`}
                                     alt={item.title}
                                 />
-                            </div>
+                            </a>
                             <div>
                                 <p className="text-textColor font-semibold py-5 text-xl">{item.title}</p>
                                 <div className="text-textColor flex gap-3">

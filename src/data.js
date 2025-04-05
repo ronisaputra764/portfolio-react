@@ -30,6 +30,12 @@ export const recentProject = [
         vercel: "https://kitabantu.vercel.app/"
     },
     {
+        title: "Garuda Ticket Flight",
+        image: "garuda.png",
+        github: "https://github.com/ronisaputra764/garuda",
+        vercel: "https://garuda-zeta.vercel.app/"
+    },
+    {
         title: "Pop Movie",
         image: "popmovie.png",
         github: "https://github.com/ronisaputra764/pop-movie-react",

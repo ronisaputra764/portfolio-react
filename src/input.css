@@ -9,7 +9,25 @@
     --hover-color: #e1ab37;
 }
 
+
 body {
-    font-family: "Rubik", serif;
     background-color: var(--bg-color);
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('./assets/fonts/Rubik/statik/Rubik-Bold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.custom-bullets {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.custom-bullets li::marker {
+    color: #ffae00;
+    /* Warna biru Tailwind */
+    font-size: 1.2em;
 }

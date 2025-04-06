@@ -3,16 +3,7 @@ import AnimatedContent from './AnimatedContent';
 
 export default function MobileExperience() {
     return (
-        <div id="experience" className="py-10 px-4">
-            {/* Header */}
-            <div className="flex flex-col items-center justify-center py-6">
-                <p className="text-transparent bg-clip-text bg-gradient-to-r from-mainColor to-fuchsia-500 text-sm mb-2">
-                    WORK / INTERNSHIP / FREELANCE EXPERIENCE
-                </p>
-                <h1 className="font-semibold text-textColor text-2xl border-b-mainColor border-b-2 px-3 w-fit whitespace-nowrap">
-                    Work Experience
-                </h1>
-            </div>
+        <div className="py-10 px-4">
 
             {/* Timeline Mobile */}
             <div className="relative">

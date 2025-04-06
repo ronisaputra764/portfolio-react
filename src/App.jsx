@@ -4,6 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 import TechStack from "./components/TechStack";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Experience />
       <Certificates />
       <TechStack />
+      <Footer />
     </>
   );
 }

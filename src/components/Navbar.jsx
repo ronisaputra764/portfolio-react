@@ -109,6 +109,9 @@ export default function Navbar() {
                     <li className="hover:text-mainColor transition-all duration-300 hover:cursor-pointer" onClick={() => handleNavClick('techstack')}>
                         <a>TechStack</a>
                     </li>
+                    <li className="hover:text-mainColor transition-all duration-300 hover:cursor-pointer" onClick={() => handleNavClick('contact')}>
+                        <a>Contact</a>
+                    </li>
                 </ul>
             </nav>
         </>

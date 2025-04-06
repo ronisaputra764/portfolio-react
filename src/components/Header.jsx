@@ -31,17 +31,18 @@ export default function Header() {
                 <div className="text-textColor flex gap-3 mt-8">
 
                     <a
-                        href="https://wa.me/6289651237747?"
+                        href="assets/CV_Roni_Saputra.pdf"
+                        download="CV_Roni_Saputra.pdf"
                         target="_blank"
                         className="border-[2px] whitespace-nowrap text-xs sm:text-base border-mainColor bg-transparent px-4 sm:px-7 py-3 rounded-lg font-semibold
                     transition-all duration-400 hover:-translate-y-1 hover:bg-mainColor hover:text-bgColor">
-                        Text Me Now
+                        Download CV
                     </a>
                     <a
                         href="mailto:ronisaputra764@gmail.com?"
                         className="border-[2px] whitespace-nowrap text-xs sm:text-base border-mainColor bg-transparent px-4 sm:px-7 py-3 rounded-lg font-semibold
                     transition-all duration-400 hover:-translate-y-1 hover:bg-mainColor hover:text-bgColor">
-                        Hire Me Now
+                        Send Me Email
                     </a>
 
                 </div>

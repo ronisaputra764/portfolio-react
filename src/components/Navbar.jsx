@@ -92,7 +92,7 @@ export default function Navbar() {
                             ? "flex flex-col bg-[#2d2d2d] text-sm sm:text-lg w-full top-0 left-0 z-[0] py-8 sm:py-10 gap-8 ps-6 sm:ps-12 animate__animated animate__slideOutUp"
                             : "flex flex-col bg-[#2d2d2d] text-sm sm:text-lg w-full top-0 left-0 z-[0] py-8 sm:py-10 gap-8 ps-6 sm:ps-12 animate__animated animate__slideInDown"
                         : "hidden"
-                        } lg:flex lg:flex-row text-textColor gap-5 text-lg lg:mx-10 animate__animated animate__slideInDown`}
+                        } lg:flex lg:flex-row text-textColor gap-5 text-md 2xl:text-lg animate__animated animate__slideInDown`}
                 >
                     <li className=" text-mainColor">
                         <a>Home</a>

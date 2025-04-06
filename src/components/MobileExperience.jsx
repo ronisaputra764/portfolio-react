@@ -3,10 +3,10 @@ import AnimatedContent from './AnimatedContent';
 
 export default function MobileExperience() {
     return (
-        <div className="py-10 px-4">
+        <div className="py-10 px-4 overflow-x-hidden">
 
             {/* Timeline Mobile */}
-            <div className="relative">
+            <div className="relative ">
                 {/* Garis timeline vertikal */}
                 <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-mainColor"></div>
 
@@ -30,22 +30,13 @@ export default function MobileExperience() {
                                 </div>
                             </div>
                             <div className='text-xs'>
-                                <p className="text-gray-300">Dynamic Rendering:</p>
                                 <ul className="text-gray-300  list-disc custom-bullets mb-2">
-                                    <li>Uses array map() to generate timeline items</li>
-                                    <li>Position controlled by item position property</li>
+                                    <li className='mb-1'>Implemented responsive design principles, delivering a consistent user experience on various screen sizes.</li>
+                                    <li className='mb-1'>Provided constructive feedback during peer code reviews, fostering a culture of collaboration and mutual growth within the team.</li>
+                                    <li className='mb-1'>Improved conversion rates by analyzing user behavior data and refining UI elements accordingly.</li>
+                                    <li>Actively participated in sprint planning meetings, ensuring alignment between project goals and deadlines while addressing potential roadblocks early on.</li>
                                 </ul>
-                                <p className="text-gray-300">Clean Architecture:</p>
-                                <ul className="text-gray-300 t list-disc custom-bullets mb-2">
-                                    <li>Separated concerns (header, timeline, items)</li>
-                                    <li>Semantic class naming</li>
-                                    <li>Reusable component structure</li>
-                                </ul>
-                                <p className="text-gray-300">Responsive Design:</p>
-                                <ul className="text-gray-300 list-disc custom-bullets">
-                                    <li>Works on all screen sizes</li>
-                                    <li>Max-width container prevents over-extension</li>
-                                </ul>
+
                             </div>
                         </div>
                     </AnimatedContent>
@@ -76,10 +67,10 @@ export default function MobileExperience() {
                             </div>
                             <div>
                                 <ul className="text-gray-300 text-xs list-disc custom-bullets mb-2">
-                                    <li className="mb-1">Developed proficiency in CSS Grid, reusable UI components, and Node.js tooling.</li>
-                                    <li className="mb-1">Implemented mobile-first responsive layouts and applied “Clean Code” principles</li>
-                                    <li className="mb-1">Built Progressive Web Apps (PWA) to enable offline functionality and enhance user experience</li>
-                                    <li className="mb-1">Implemented CI/CD pipelines to streamline deployment processes and improve efficiency</li>
+                                    <li className="mb-1">Worked closely with UX/UI designers to translate complex designs into functional web pages without compromising aesthetics or usability.</li>
+                                    <li className="mb-1">Resolved front-end bugs promptly, ensuring optimal website performance at all times.</li>
+                                    <li className="mb-1">Implemented SEO best practices in coding and content structure for improved search engine visibility.</li>
+                                    <li className="mb-1">Provided technical support to clients during website launch, addressing any issues or concerns quickly and professionally.</li>
                                 </ul>
                             </div>
                         </div>
@@ -109,24 +100,13 @@ export default function MobileExperience() {
                                 </div>
                             </div>
                             <div className='text-xs'>
-                                <p className="text-gray-300">State Management:</p>
                                 <ul className="text-gray-300 list-disc custom-bullets mb-2">
-                                    <li>Manage client-side state (Redux, Zustand)</li>
-                                    <li>Handle API caching (React Query, SWR)</li>
-                                    <li>Implement authentication flows (OAuth, JWT)</li>
+                                    <li className='mb-1'>Used Javascript, SQL and HTML to develop app-solutions.</li>
+                                    <li className='mb-1'>Increased website performance by optimizing front-end and back-end code for faster loading times.</li>
+                                    <li className='mb-1'>Applied responsive design principles to ensure consistent display and functionality across a wide range of devices, including mobile phones, tablets, and desktop computers.</li>
+                                    <li className='mb-1'>Created easy-to-use APIs for third-party integrations, enhancing the functionality of existing applications without compromising on performance or security.</li>
                                 </ul>
-                                <p className="text-gray-300">API Development:</p>
-                                <ul className="text-gray-300 list-disc custom-bullets mb-2">
-                                    <li>Design RESTful/GraphQL APIs (Node.js/Express)</li>
-                                    <li>Implement middleware for auth/logging</li>
-                                    <li>Handle file uploads (AWS S3, Multer)</li>
-                                </ul>
-                                <p className="text-gray-300">Database Management:</p>
-                                <ul className="text-gray-300 list-disc custom-bullets">
-                                    <li>Design schemas (SQL/NoSQL)</li>
-                                    <li>Write optimized queries (MongoDB)</li>
-                                    <li>Implement migrations and seeding</li>
-                                </ul>
+
                             </div>
                         </div>
                     </AnimatedContent>

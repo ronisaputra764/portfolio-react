@@ -24,11 +24,11 @@ export default function Header() {
                     />
                 </div>
 
-                <p className=" text-[#c3c3c3] text-xs sm:text-base mt-2 transition-all duration-700">I'm web a developer specializing in creating dynamic and user-friendly websites.
+                <p className=" text-[#c3c3c3] text-xs sm:text-base mt-2 transition-all duration-700">I'm a web developer specializing in creating dynamic and user-friendly websites.
                     I have experience in front-end and back-end development, along with a passion
                     for crafting intuitive user interfaces and efficient code
                 </p>
-                <div className="text-textColor flex gap-3 mt-8">
+                <div className="text-textColor flex gap-3 mt-4 md:mt-8">
 
                     <a
                         href="assets/CV_Roni_Saputra.pdf"

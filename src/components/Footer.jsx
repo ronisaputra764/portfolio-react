@@ -24,7 +24,7 @@ export default function Footer() {
             <div className='w-[70%] md:w-80 ms-auto me-auto text-white'>
                 <GlassIcons items={items} className="custom-class inline" />
             </div>
-            <p className='text-gray-400 text-center py-32'>© 2025 Roni Saputra. All Rights Reserved.</p>
+            <p className='text-gray-400 text-xs text-center py-32'>© 2025 Roni Saputra. All Rights Reserved.</p>
         </div>
     );
 }
